@@ -26,3 +26,4 @@ GIN_BUILD_ARGS | Additional go build arguments |
 GIN_CERT_FILE | TLS Certificate |
 GIN_KEY_FILE | TLS Certificate Key |
 GIN_LOG_PREFIX | Log prefix | gin
+
