@@ -1,7 +1,7 @@
 FROM golang:1-alpine
 
 RUN apk add --no-cache git &&\
-    go get -u github.com/codegangsta/gin
+    go get -u github.com/codegangsta/gin github.com/go-delve/delve/cmd/dlv
 ENV GOPATH=/go:/app\
     GO111MODULE=on
 ENV GIN_LADDR=0.0.0.0\
